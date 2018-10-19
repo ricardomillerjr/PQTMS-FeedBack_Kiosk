@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PQTMS-FeedBack_Kiosk.jnlp">
+    <information>
+        <title>PQTMS-FeedBack_Kiosk</title>
+        <vendor>millerr</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="10.0.2.1-redhat+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="PQTMS-FeedBack_Kiosk.jar" size="3244" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="pqtms.feedback_kiosk.main_app" name="main_app"/>
+</jnlp>
+

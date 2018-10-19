@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'PQTMS-FeedBack_Kiosk.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IlBRVE1TLUZlZWRCYWNrX0tpb3NrLmpubHAiPg0KICAgIDxpbmZvcm1hdGlvbj4NCiAgICAgICAgPHRpdGxlPlBRVE1TLUZlZWRCYWNrX0tpb3NrPC90aXRsZT4NCiAgICAgICAgPHZlbmRvcj5taWxsZXJyPC92ZW5kb3I+DQogICAgICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICAgICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogICAgPC9pbmZvcm1hdGlvbj4NCiAgICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCiAgICA8cmVzb3VyY2VzPg0KICAgICAgICA8ajJzZSB2ZXJzaW9uPSIxMC4wLjIuMS1yZWRoYXQrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgICAgIDxqYXIgaHJlZj0iUFFUTVMtRmVlZEJhY2tfS2lvc2suamFyIiBzaXplPSIzMjQ0IiBkb3dubG9hZD0iZWFnZXIiLz4NCiAgICA8L3Jlc291cmNlcz4NCiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJwcXRtcy5mZWVkYmFja19raW9zay5tYWluX2FwcCIgbmFtZT0ibWFpbl9hcHAiLz4NCjwvam5scD4NCg0K'
+            },
+            {
+                javafx : '10.0.2.1-redhat+'
+            },
+            {}
+        );
+        return false;
+    }
+</script><script>
+    function javafxEmbedpqtms.feedback_kiosk() {
+        dtjava.embed(
+            {
+                id : 'pqtms.feedback_kiosk',
+                url : 'PQTMS-FeedBack_Kiosk.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IlBRVE1TLUZlZWRCYWNrX0tpb3NrLmpubHAiPg0KICAgIDxpbmZvcm1hdGlvbj4NCiAgICAgICAgPHRpdGxlPlBRVE1TLUZlZWRCYWNrX0tpb3NrPC90aXRsZT4NCiAgICAgICAgPHZlbmRvcj5taWxsZXJyPC92ZW5kb3I+DQogICAgICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICAgICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogICAgPC9pbmZvcm1hdGlvbj4NCiAgICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCiAgICA8cmVzb3VyY2VzPg0KICAgICAgICA8ajJzZSB2ZXJzaW9uPSIxMC4wLjIuMS1yZWRoYXQrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgICAgIDxqYXIgaHJlZj0iUFFUTVMtRmVlZEJhY2tfS2lvc2suamFyIiBzaXplPSIzMjQ0IiBkb3dubG9hZD0iZWFnZXIiLz4NCiAgICA8L3Jlc291cmNlcz4NCiAgICA8amZ4OmphdmFmeC1kZXNjIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJwcXRtcy5mZWVkYmFja19raW9zay5tYWluX2FwcCIgbmFtZT0ibWFpbl9hcHAiLz4NCjwvam5scD4NCg0K'
+            },
+            {
+                javafx : '10.0.2.1-redhat+'
+            },
+            {}
+        );
+    }
+    
+            <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedpqtms.feedback_kiosk);
+</script>
+    </head>
+    <body>
+        <h2>
+            Test page for <b>main_app</b>
+        </h2>
+        <b>Webstart:</b><a href="PQTMS-FeedBack_Kiosk.jnlp" onclick="return launchApplication('PQTMS-FeedBack_Kiosk.jnlp');">click to launch this app as webstart</a>
+        <br>
+        <hr>
+        <br>
+        
+        <!-- Applet will be inserted here -->
+        <div id="javafx-app-placeholder"></div>
+    </body>
+</html>
